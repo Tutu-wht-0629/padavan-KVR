@@ -97,9 +97,9 @@ typedef u_int8_t u8;
 #define EVM_RESTART_SMARTDNS	    		(1ULL << 46) //smartdns加速
 #define EVM_RESTART_FRP	    			(1ULL << 47) //frp内网穿透
 //#define EVM_RESTART_DNSFORWARDER		(1ULL << 47) //dns转发
-//#define EVM_RESTART_SHADOWSOCKS		(1ULL << 48) //科学上网ss
+#define EVM_RESTART_SHADOWSOCKS		        (1ULL << 48) //科学上网ss
 #define EVM_RESTART_CADDY			(1ULL << 48) //caddy文件管理
-//#define EVM_RESTART_SS_TUNNEL			(1ULL << 49) //科学上网插件
+#define EVM_RESTART_SS_TUNNEL			(1ULL << 49) //科学上网插件
 #define EVM_RESTART_ADGUARDHOME			(1ULL << 49) //adg去广告
 //#define EVM_RESTART_MENTOHUST			(1ULL << 50) //校园认证
 //#define EVM_RESTART_WYY			(1ULL << 50) //网易云
@@ -118,7 +118,7 @@ typedef u_int8_t u8;
 #define EVM_RESTART_VNTS			(1ULL << 58) //vnt服务器
 #define EVM_RESTART_VNTCLI			(1ULL << 59) //vnt客户端
 //#define EVM_RESTART_NVPPROXY			(1ULL << 60) 
-//#define EVM_RESTART_V2RAYA			(1ULL << 60) //V2RAYA
+#define EVM_RESTART_V2RAYA			(1ULL << 60) //V2RAYA
 #define EVM_RESTART_NATPIERCE			(1ULL << 60) //皎月连
 #define EVM_RESTART_TAILSCALE			(1ULL << 61) //taislacle
 #define EVM_RESTART_REBOOT			(1ULL << 62) //重启
