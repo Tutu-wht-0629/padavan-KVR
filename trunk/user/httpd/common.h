@@ -87,13 +87,13 @@ typedef u_int8_t u8;
 #define EVM_RESTART_DMS				(1ULL << 39) //Minidlna UPnP 媒体服务器
 #define EVM_RESTART_ITUNES			(1ULL << 40) //Firefly iTunes 媒体服务器
 //#define EVM_RESTART_TRMD			(1ULL << 41) //#TRANSMISSION
-//#define EVM_RESTART_CLOUDFLARE		(1ULL << 41)  //CF的ddns
+#define EVM_RESTART_CLOUDFLARE		        (1ULL << 41)  //CF的ddns
 #define EVM_RESTART_ARIA			(1ULL << 42) //aria2c文件下载
 //#define EVM_RESTART_SCUT			(1ULL << 43) //校园网
 #define EVM_RESTART_TTYD			(1ULL << 43) //ttyd网页终端
 //#define EVM_RESTART_VLMCSD			(1ULL << 44) //微软服务
-#define EVM_RESTART_ALIST			(1ULL << 44) //alist文件列表
-#define EVM_RESTART_ALIDDNS			(1ULL << 45) //阿里ddns
+//#define EVM_RESTART_ALIST			(1ULL << 44) //alist文件列表
+//#define EVM_RESTART_ALIDDNS			(1ULL << 45) //阿里ddns
 #define EVM_RESTART_SMARTDNS	    		(1ULL << 46) //smartdns加速
 #define EVM_RESTART_FRP	    			(1ULL << 47) //frp内网穿透
 //#define EVM_RESTART_DNSFORWARDER		(1ULL << 47) //dns转发
